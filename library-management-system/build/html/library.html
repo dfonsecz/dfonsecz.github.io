@@ -1,110 +1,48 @@
-
-
 <!DOCTYPE html>
-<html class="writer-html5" lang="English" data-content_root="./">
-<head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>library module &mdash; Library Management System 1.0.0 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+<html lang="English" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  
-      <script src="_static/jquery.js?v=5d32c60e"></script>
-      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=80cc54d1"></script>
-      <script src="_static/doctools.js?v=9a2dae69"></script>
-      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/js/theme.js"></script>
+    <title>library module &#8212; Library Management System 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=80cc54d1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="main module" href="main.html" />
-    <link rel="prev" title="book module" href="book.html" /> 
-</head>
+    <link rel="prev" title="book module" href="book.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
 
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+  
+  
 
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
           
-          
-          <a href="index.html" class="icon icon-home">
-            Library Management System
-          </a>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="modules.html">source</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="book.html">book module</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">library module</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#library.Library"><code class="docutils literal notranslate"><span class="pre">Library</span></code></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.add_book"><code class="docutils literal notranslate"><span class="pre">Library.add_book()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.add_user"><code class="docutils literal notranslate"><span class="pre">Library.add_user()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.borrow_book"><code class="docutils literal notranslate"><span class="pre">Library.borrow_book()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.get_overdue_books"><code class="docutils literal notranslate"><span class="pre">Library.get_overdue_books()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.load_books"><code class="docutils literal notranslate"><span class="pre">Library.load_books()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.load_users"><code class="docutils literal notranslate"><span class="pre">Library.load_users()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.remove_book"><code class="docutils literal notranslate"><span class="pre">Library.remove_book()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.return_book"><code class="docutils literal notranslate"><span class="pre">Library.return_book()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.save_books"><code class="docutils literal notranslate"><span class="pre">Library.save_books()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.save_users"><code class="docutils literal notranslate"><span class="pre">Library.save_users()</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#library.Library.search_books"><code class="docutils literal notranslate"><span class="pre">Library.search_books()</span></code></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="main.html">main module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user.html">user module</a></li>
-</ul>
-</li>
-</ul>
 
-        </div>
-      </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Library Management System</a>
-      </nav>
-
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
-  <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="modules.html">source</a></li>
-      <li class="breadcrumb-item active">library module</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/library.rst.txt" rel="nofollow"> View page source</a>
-      </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
+          <div class="body" role="main">
+            
   <section id="module-library">
-<span id="library-module"></span><h1>library module<a class="headerlink" href="#module-library" title="Link to this heading"></a></h1>
+<span id="library-module"></span><h1>library module<a class="headerlink" href="#module-library" title="Link to this heading">¶</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="library.Library">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">library.</span></span><span class="sig-name descname"><span class="pre">Library</span></span><a class="reference internal" href="_modules/library.html#Library"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library" title="Link to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">library.</span></span><span class="sig-name descname"><span class="pre">Library</span></span><a class="reference internal" href="_modules/library.html#Library"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Manages the library's book and user data.
 Provides methods to borrow, return, add, remove, and search books.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.add_book">
-<span class="sig-name descname"><span class="pre">add_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.add_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.add_book" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">add_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.add_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.add_book" title="Link to this definition">¶</a></dt>
 <dd><p>Adds a new book to the system.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -115,7 +53,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.add_user">
-<span class="sig-name descname"><span class="pre">add_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.add_user"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.add_user" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">add_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.add_user"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.add_user" title="Link to this definition">¶</a></dt>
 <dd><p>Adds a new user to the system.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -126,7 +64,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.borrow_book">
-<span class="sig-name descname"><span class="pre">borrow_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">14</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.borrow_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.borrow_book" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">borrow_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">14</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.borrow_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.borrow_book" title="Link to this definition">¶</a></dt>
 <dd><p>Borrows a book for a user.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -147,7 +85,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.get_overdue_books">
-<span class="sig-name descname"><span class="pre">get_overdue_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.get_overdue_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.get_overdue_books" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_overdue_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.get_overdue_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.get_overdue_books" title="Link to this definition">¶</a></dt>
 <dd><p>Retrieves a list of all overdue books.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
@@ -161,7 +99,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.load_books">
-<span class="sig-name descname"><span class="pre">load_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.load_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.load_books" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">load_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.load_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.load_books" title="Link to this definition">¶</a></dt>
 <dd><p>Loads books from 'books.json'.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
@@ -175,7 +113,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.load_users">
-<span class="sig-name descname"><span class="pre">load_users</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.load_users"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.load_users" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">load_users</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.load_users"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.load_users" title="Link to this definition">¶</a></dt>
 <dd><p>Loads users from 'users.json'.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
@@ -189,7 +127,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.remove_book">
-<span class="sig-name descname"><span class="pre">remove_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.remove_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.remove_book" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">remove_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.remove_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.remove_book" title="Link to this definition">¶</a></dt>
 <dd><p>Removes a book from the system.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -200,7 +138,7 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.return_book">
-<span class="sig-name descname"><span class="pre">return_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.return_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.return_book" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">return_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">isbn</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.return_book"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.return_book" title="Link to this definition">¶</a></dt>
 <dd><p>Returns a borrowed book.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -217,19 +155,19 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.save_books">
-<span class="sig-name descname"><span class="pre">save_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.save_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.save_books" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">save_books</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.save_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.save_books" title="Link to this definition">¶</a></dt>
 <dd><p>Saves all books to 'books.json'.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.save_users">
-<span class="sig-name descname"><span class="pre">save_users</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.save_users"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.save_users" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">save_users</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.save_users"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.save_users" title="Link to this definition">¶</a></dt>
 <dd><p>Saves all users to 'users.json'.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="library.Library.search_books">
-<span class="sig-name descname"><span class="pre">search_books</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">author</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isbn</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.search_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.search_books" title="Link to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">search_books</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">author</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isbn</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/library.html#Library.search_books"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#library.Library.search_books" title="Link to this definition">¶</a></dt>
 <dd><p>Searches for books based on title, author, or ISBN.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
@@ -246,34 +184,80 @@ Provides methods to borrow, return, add, remove, and search books.</p>
 </section>
 
 
-           </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="book.html" class="btn btn-neutral float-left" title="book module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="main.html" class="btn btn-neutral float-right" title="main module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <p>&#169; Copyright 2025, Daniela Fonseca Zumbado.</p>
-  </div>
-
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
-
-</footer>
+          
         </div>
       </div>
-    </section>
-  </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Library Management System</a></h1>
 
-</body>
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">System Modules</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="book.html">book module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">library module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main.html">main module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user.html">user module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">System Modules</a><ul>
+      <li>Previous: <a href="book.html" title="previous chapter">book module</a></li>
+      <li>Next: <a href="main.html" title="next chapter">main module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Daniela Fonseca Zumbado.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/library.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
 </html>
