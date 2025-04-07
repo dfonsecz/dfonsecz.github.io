@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "9780132350884",
+    "is_borrowed": false,
+    "due_date": null,
+    "borrower_id": null
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "isbn": "9780201616224",
+    "is_borrowed": true,
+    "due_date": "2025-04-10",
+    "borrower_id": "stu123"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "isbn": "9781593279288",
+    "is_borrowed": false,
+    "due_date": null,
+    "borrower_id": null
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "isbn": "9780385490818",
+    "is_borrowed": false,
+    "due_date": null,
+    "borrower_id": null
+  }
+]
